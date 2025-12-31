@@ -1,0 +1,73 @@
+# Allow all search engines and AI crawlers
+User-agent: *
+Allow: /
+Disallow: 
+
+# Specific AI Crawler Policies
+# Google AI (Gemini, Bard)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+# OpenAI (ChatGPT, GPT-4)
+User-agent: GPTBot
+Allow: /
+
+# Anthropic Claude
+User-agent: Claude-Web
+Allow: /
+
+# Microsoft Copilot
+User-agent: Copilot
+Allow: /
+
+User-agent: Copilotbot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Apple Intelligence
+User-agent: AppleBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Brave Search
+User-agent: Bravebots
+Allow: /
+
+# Common Search Engines
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandexbot
+Allow: /
+
+# Standard Web Crawlers
+User-agent: Mozilla
+Allow: /
+
+# Default catch-all
+User-agent: *
+Allow: /
+
+# Sitemap location (optional - update if you have a sitemap)
+# Sitemap: https://dentist-landing-page-8ga5q2qr.sites.blink.new/sitemap.xml
